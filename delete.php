@@ -15,6 +15,7 @@ $sql = <<<EOT
 DELETE FROM `hinhthucthanhtoan` WHERE httt_ma=$httt_ma
 EOT;
 mysqli_query($conn, $sql);
+header('location:index.php');
 ?>
 
 </body>
